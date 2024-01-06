@@ -249,11 +249,11 @@ iframe{
     }
     iframe{
         width:350px !important;
-        height:170px !important;
+        height:180px !important;
     }
     .container{
-        margin-left: 12px;
-margin-top: 80px;
+        margin-left: 5px;
+        margin-top: 60px;
     }
     /* toggles to create or remove the class. 
     Here used "clicked" class for enable medidaqurey while clicking the div(script.js file) */
