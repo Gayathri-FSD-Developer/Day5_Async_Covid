@@ -33,12 +33,27 @@ deceased.addEventListener('click',()=>
     document.getElementById('widget').setAttribute('style','display:block;')
 });
 
+//  // Add a click event listener to the div. For small device
+active.addEventListener('click',()=>{
+    var high=document.getElementById('highlight');
+    high.classList.toggle('clicked_active');
+})
+recovered.addEventListener('click',()=>{
+    var high=document.getElementById('highlight');
+    high.classList.toggle('clicked_recovered');
+})
+deceased.addEventListener('click',()=>{
+    var high=document.getElementById('highlight');
+    high.classList.toggle('clicked_death');
+})
+
+
 // Api fetch starts here
 
 let btn= document.getElementById('button-addon2');
 btn.addEventListener('click',function(){
     let search= document.getElementById("input_str").value;
-    // console.log(search);
+   
     fetch(`https://covid-19.dataflowkit.com/v1/${search}`)
     // fetch('https://coronavirus.m.pipedream.net/')
 .then((response)=>{
