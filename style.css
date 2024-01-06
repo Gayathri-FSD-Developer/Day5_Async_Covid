@@ -260,7 +260,7 @@ iframe{
     .container{
         margin-left: 0px;
         margin-top: 10px;
-        height:750px;
+        height:800px;
     }
     /* toggles to create or remove the class. 
     Here used "clicked" class for enable medidaqurey while clicking the div(script.js file) */
