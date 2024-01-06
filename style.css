@@ -15,11 +15,20 @@ body{
     justify-content: center;
     align-items: center;
     background-image: url('photo-1585435557343-3b092031a831.avif');
-    background-size: 1200px; 
+    background-size: 1600px; 
     /* image-resolution: 1500px; */
     background-clip: border-box;
-    height: 800px;
+    /* height: 800px; */
     border-radius: 29px;
+}
+.main_img{
+    margin-top: 10px;
+    width: 600px;
+    border-radius: 20px;
+    height: 200px;
+    background-image:linear-gradient(rgba(2, 19, 18, 0.5),rgba(0,0,0,.7)), url('photo-1584254520678-31fe4dce5306.avif');
+    background-size: cover;
+    background-position: center;
 }
 /* > is used to select all the child classes of search */
 .Search>*{
@@ -88,12 +97,6 @@ body{
   transform: translate3d(0, 0, 0); 
 }
 .MapSwitcher .highlight {
-  /* opacity: 1;
-  transform: translate3d(125px, 0px, 0px);
-  background: rgba(0, 123, 255, 0.125);
-
-  transition:  1s ease-in-out;
-  width: calc(25%); */
 opacity: 1;
 background: rgba(0, 123, 255, 0.244); 
 transform: translate3d(150px, 0px, 0px);
@@ -137,9 +140,6 @@ transition:  1s ease-in-out;
     margin-top: 20px;
     text-align: center;
 }
-/* .Level h1, .Level h5{
-    margin-bottom: 0;
-} */
 
 .Level .is-confirmed h5 {
     color: #ff073a;
