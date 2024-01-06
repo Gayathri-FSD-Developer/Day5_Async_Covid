@@ -21,6 +21,7 @@ body{
     height: 800px;
     border-radius: 29px;
 }
+/* > is used to select all the child classes of search */
 .Search>*{
     display: flex;
     justify-content: center;
@@ -175,6 +176,11 @@ img{
      margin-left: 40px;
      border-radius: 15px;
 }
+iframe{
+    width:800px;
+     height:200px;
+}
+
 /* doubts */
 /* .widgets{
     transition:  1s ease-in-out;
@@ -230,15 +236,57 @@ img{
         justify-content: space-between;
         position: absolute;
         /* justify-content: center; */
-        margin-left: 89px;
+        /* margin-left: 89px; */
         width: 300px;
     }
     .MapSwitcher .clickable, .MapSwitcher .highlight {
        
-        height: 11rem;
+        height: 8rem;
        
     }
     .Minigraph{
         display: none;
     }
+    iframe{
+        width:350px !important;
+        height:170px !important;
+    }
+    .container{
+        margin-left: 12px;
+margin-top: 80px;
+    }
+    /* toggles to create or remove the class. 
+    Here used "clicked" class for enable medidaqurey while clicking the div(script.js file) */
+    .MapSwitcher .highlight {
+    
+      opacity: 1 ;
+      background: rgba(0, 123, 255, 0.244); 
+      transform: translate3d(80px, 0px, 0px);
+      transition:  1s ease-in-out;
+       width: calc(25%);
+      }
+
+    .MapSwitcher .clicked_active{
+        opacity: 1 !important;
+     background: rgba(0, 123, 255, 0.125) !important;
+      transform: translate3d(80px, 0px, 0px) !important;
+       width: calc(25%) !important;
+    }
+   .MapSwitcher .clicked_recovered{
+    opacity: 1 !important; 
+    background: rgba(40, 167, 69, 0.125)!important;
+     transform: translate3d(150px, 0px, 0px)!important;
+      width: calc(25%)!important;
+   }
+
+   .MapSwitcher .clicked_death{
+    opacity: 1 !important;
+     background: rgba(108, 117, 125, 0.125)!important;
+      transform: translate3d(220px, 0px, 0px)!important; 
+      width: calc(25%)!important;
+   }
+   .updates{
+    margin-top: 45px;
+   }
+    
 }
