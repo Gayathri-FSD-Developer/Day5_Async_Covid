@@ -220,6 +220,12 @@ iframe{
         width: 300px;
         /* margin-left: 90px; */
     }
+    .Level h1 {
+    font-size: min(2.95vw,17px)!important;
+    font-weight: bolder;
+    margin-top: 20px;
+    text-align: center;
+}
     img{
         width: 50px;
         /* text-align: center;
