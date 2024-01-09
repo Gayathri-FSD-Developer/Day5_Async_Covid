@@ -19,7 +19,5 @@ tried out different way of approach. It forced me to make a lot of effort.</p>
     <li>iframe</li>
   </ul>
 <h2>And my output will be with responsivnes</h2>
-<img src="image.jpeg" alt="result1" height="400" width="350">
-<img src="image_1.jpeg" alt="result2" height="400" width="350">
-<img src="image_2.jpeg" alt="result2" height="400" width="300">
+<img src="image.jpeg" alt="result1" height="400" width="350"><img src="image_1.jpeg" alt="result2" height="400" width="350"><img src="image_2.jpeg" alt="result2" height="400" width="300">
 
